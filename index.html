@@ -1,3 +1,5 @@
+ <!-- 9:47 Breakpoint -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Coming Soon Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -15,21 +17,27 @@
         </nav>
     </header>
     <section>
+        <img src="/assets/curve.png" alt="" class="wave">
         <div class="contentBx">
                 <h2>Coming Soon</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, ex corporis optio qui tempora fuga vero quo quos sequi sint repudiandae sit, quaerat illum in consequatur debitis doloremque aperiam libero.</p>
             
             <div class="countdown">
-                <div id="day">236</div>
-                <div id="hour">1</div>
-                <div id="minute">50</div>
-                <div id="second">14</div>
+                <div class="time"><div id="day"></div><span>Days</span></div>
+                <div class="time"><div id="hour"></div><span>Hours</span></div>
+                <div class="time"><div  id="minute"></div><span>Minutes</span></div>
+                <div class="time"><div id="second"></div><span>Seconds</span></div>
             </div>
             <a href="#">Notify Me!</a>
         </div>
         <div class="imgBx">
             <img src="assets/man.png" alt="">
         </div>
+        <ul class="sci">
+            <li><a href=""><img src="/assets/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="/assets/twitter.png" alt=""></a></li>
+            <li><a href=""><img src="/assets/instagram.png" alt=""></a></li>
+        </ul>
     </section>
     <script type="text/javascript" src="script.js"></script>
 </body>
