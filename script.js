@@ -11,8 +11,8 @@ function newYear() {
 
         var d = Math.floor(gap / (day));
         var h = Math.floor((gap % (day)) / (hour));
-        var h = Math.floor((gap % (hour)) / (minute));
-        var h = Math.floor((gap % (minute)) / second);
+        var m = Math.floor((gap % (hour)) / (minute));
+        var s = Math.floor((gap % (minute)) / second);
 
         document.getElementById('day').innerHTML = d;
         document.getElementById('hour').innerHTML = h;
