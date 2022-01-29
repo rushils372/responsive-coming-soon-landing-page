@@ -1,4 +1,4 @@
- <!-- 9:47 Breakpoint -->
+ <!-- 18:10 Breakpoint -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,7 @@
                 <div class="time"><div  id="minute"></div><span>Minutes</span></div>
                 <div class="time"><div id="second"></div><span>Seconds</span></div>
             </div>
-            <a href="#">Notify Me!</a>
+            <a href="#"  onclick="toggle();" >Notify Me!</a>
         </div>
         <div class="imgBx">
             <img src="assets/man.png" alt="">
@@ -39,6 +39,17 @@
             <li><a href=""><img src="/assets/instagram.png" alt=""></a></li>
         </ul>
     </section>
+    <div class="newsletter">
+        <h2>Stay Tuned</h2>
+        <p>Get notified at launch </p>
+        <div class="inputBox">
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <input type="submit" value="Submit" onclick="toggle();">
+            </form>
+        </div>
+        <img src="/assets/close.png" alt="" class="close" onclick="toggle();">
+    </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
