@@ -257,4 +257,46 @@ section .sci li a {
     section .contentBx p {
         font-size: 16px;
     }
+
+    section .contentBx .countdown .time {
+        font-size: 30px;
+        min-width: 70px;
+        margin-right: 5px; 
+    }
+
+    section .contentBx .countdown .time span {
+        font-size: 14px;
+    }
+    
+    section .contentBx a {
+        position: relative;
+        margin-top: 10px;
+        display: inline-block;
+        background-color: #fff;
+        color: #ff0083;
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 40px;
+    }
+    
+    section .sci {
+        left: 50px;
+    }
+
+    .newsletter {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .newsletter .inputBox input[type="submit"] {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .newsletter h2 {
+        font-size: 36px;
+        color: #312747;
+    }
 }
