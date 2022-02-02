@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --main: #ff0083;
+    --mainA: #ff5e00;
+    --secondary: #312747;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +14,7 @@
 }
 
 body {
-    background: #312747;
+    background: var(--secondary);
 }
 
 header{
@@ -52,7 +58,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff0083;
+    color: var(--main);
 }
 
 section {
@@ -98,7 +104,7 @@ section .contentBx .countdown .time {
     font-weight: 700;
     padding: 10px 5px 15px;
     border-radius: 4px;
-    color: #ff0083;
+    color: var(--main);
 
 }
 
@@ -106,14 +112,14 @@ section .contentBx .countdown .time span {
     font-size: 20px;
     margin-top: -10px;
     font-weight: 600;
-    color: #312747;
+    color: var(--secondary);
 }
 
 section .contentBx a {
     position: relative;
     margin-top: 10px;
     display: inline-block;
-    background-color: #ff0083;
+    background-color: var(--main);
     color: #fff;
     font-size: 20px;
     padding: 15px 35px;
@@ -182,12 +188,12 @@ section .sci li a {
 
 .newsletter h2 {
     font-size: 48px;
-    color: #312747;
+    color: var(--secondary);
 }
 
 .newsletter p {
     font-size: 20px;
-    color: #312747;
+    color: var(--secondary);
 }
 
 .newsletter .inputBox {
@@ -207,8 +213,8 @@ section .sci li a {
     outline: none;
     width: 140px;
     color: #fff;
-    background: #ff0083;
-    border: 1px solid #ff0083;
+    background: var(--main);
+    border: 1px solid var(--main);
     letter-spacing: 2px;
     box-sizing: border-box;
     cursor: pointer;
@@ -273,7 +279,7 @@ section .sci li a {
         margin-top: 10px;
         display: inline-block;
         background-color: #fff;
-        color: #ff0083;
+        color: var(--main);
         font-size: 16px;
         letter-spacing: 2px;
         padding: 10px 25px;
@@ -297,6 +303,6 @@ section .sci li a {
 
     .newsletter h2 {
         font-size: 36px;
-        color: #312747;
+        color: var(--secondary);
     }
 }
