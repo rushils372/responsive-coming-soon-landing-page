@@ -7,7 +7,7 @@ function toggle() {
 
 
 
-var countDate = new Date('Jan 1, 2023 00:00:00').getTime();
+var countDate = new Date('April 1, 2022 00:00:00').getTime();
 function newYear() {
     var now = new Date().getTime();
         gap = countDate - now;
